@@ -1,3 +1,6 @@
+import React from 'react';
+
+
 const CardBox = (props) => {
     return(
         <div className="card-body">
@@ -27,7 +30,7 @@ const Name = (props) => {
         {props.details}
       </div>
     )
-
+}
     const Star = ({ selected=false, onClick=f=>f }) =>
  <div className={(selected) ? "star selected" : "star"}
       onClick={onClick}>
@@ -56,4 +59,6 @@ const Card = (props) => {
   )
 }
 
-export { Card }
+
+
+export default Card;
